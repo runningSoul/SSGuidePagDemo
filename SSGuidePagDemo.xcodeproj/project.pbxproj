@@ -14,6 +14,9 @@
 		0A808EF21BCB4E4E0063F886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A808EF11BCB4E4E0063F886 /* Images.xcassets */; };
 		0A808EF51BCB4E4E0063F886 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A808EF31BCB4E4E0063F886 /* LaunchScreen.xib */; };
 		0A808F011BCB4E4E0063F886 /* SSGuidePagDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A808F001BCB4E4E0063F886 /* SSGuidePagDemoTests.m */; };
+		0A808F151BCBB5F90063F886 /* GuideCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A808F141BCBB5F90063F886 /* GuideCollection.m */; };
+		0A808F181BCBB6160063F886 /* GuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A808F171BCBB6160063F886 /* GuideCell.m */; };
+		0A808F1B1BCBB6320063F886 /* chooseMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A808F1A1BCBB6320063F886 /* chooseMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		0A808EFA1BCB4E4E0063F886 /* SSGuidePagDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSGuidePagDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A808EFF1BCB4E4E0063F886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A808F001BCB4E4E0063F886 /* SSGuidePagDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGuidePagDemoTests.m; sourceTree = "<group>"; };
+		0A808F131BCBB5F90063F886 /* GuideCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideCollection.h; sourceTree = "<group>"; };
+		0A808F141BCBB5F90063F886 /* GuideCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideCollection.m; sourceTree = "<group>"; };
+		0A808F161BCBB6160063F886 /* GuideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideCell.h; sourceTree = "<group>"; };
+		0A808F171BCBB6160063F886 /* GuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideCell.m; sourceTree = "<group>"; };
+		0A808F191BCBB6320063F886 /* chooseMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chooseMain.h; sourceTree = "<group>"; };
+		0A808F1A1BCBB6320063F886 /* chooseMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chooseMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				0A808EE91BCB4E4E0063F886 /* AppDelegate.m */,
 				0A808EEB1BCB4E4E0063F886 /* ViewController.h */,
 				0A808EEC1BCB4E4E0063F886 /* ViewController.m */,
+				0A808F131BCBB5F90063F886 /* GuideCollection.h */,
+				0A808F141BCBB5F90063F886 /* GuideCollection.m */,
+				0A808F161BCBB6160063F886 /* GuideCell.h */,
+				0A808F171BCBB6160063F886 /* GuideCell.m */,
+				0A808F191BCBB6320063F886 /* chooseMain.h */,
+				0A808F1A1BCBB6320063F886 /* chooseMain.m */,
 				0A808EEE1BCB4E4E0063F886 /* Main.storyboard */,
 				0A808EF11BCB4E4E0063F886 /* Images.xcassets */,
 				0A808EF31BCB4E4E0063F886 /* LaunchScreen.xib */,
@@ -221,7 +236,10 @@
 			files = (
 				0A808EED1BCB4E4E0063F886 /* ViewController.m in Sources */,
 				0A808EEA1BCB4E4E0063F886 /* AppDelegate.m in Sources */,
+				0A808F151BCBB5F90063F886 /* GuideCollection.m in Sources */,
+				0A808F1B1BCBB6320063F886 /* chooseMain.m in Sources */,
 				0A808EE71BCB4E4E0063F886 /* main.m in Sources */,
+				0A808F181BCBB6160063F886 /* GuideCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +434,7 @@
 				0A808F061BCB4E4E0063F886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A808F071BCB4E4E0063F886 /* Build configuration list for PBXNativeTarget "SSGuidePagDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				0A808F091BCB4E4E0063F886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
