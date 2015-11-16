@@ -17,6 +17,7 @@
 		0A808F151BCBB5F90063F886 /* GuideCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A808F141BCBB5F90063F886 /* GuideCollection.m */; };
 		0A808F181BCBB6160063F886 /* GuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A808F171BCBB6160063F886 /* GuideCell.m */; };
 		0A808F1B1BCBB6320063F886 /* chooseMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A808F1A1BCBB6320063F886 /* chooseMain.m */; };
+		E8268C3C1BF9698000BA11EC /* LSPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8268C3B1BF9698000BA11EC /* LSPageScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		0A808F171BCBB6160063F886 /* GuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideCell.m; sourceTree = "<group>"; };
 		0A808F191BCBB6320063F886 /* chooseMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chooseMain.h; sourceTree = "<group>"; };
 		0A808F1A1BCBB6320063F886 /* chooseMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chooseMain.m; sourceTree = "<group>"; };
+		E8268C3A1BF9698000BA11EC /* LSPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPageScrollView.h; sourceTree = "<group>"; };
+		E8268C3B1BF9698000BA11EC /* LSPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPageScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				0A808F171BCBB6160063F886 /* GuideCell.m */,
 				0A808F191BCBB6320063F886 /* chooseMain.h */,
 				0A808F1A1BCBB6320063F886 /* chooseMain.m */,
+				E8268C3A1BF9698000BA11EC /* LSPageScrollView.h */,
+				E8268C3B1BF9698000BA11EC /* LSPageScrollView.m */,
 				0A808EEE1BCB4E4E0063F886 /* Main.storyboard */,
 				0A808EF11BCB4E4E0063F886 /* Images.xcassets */,
 				0A808EF31BCB4E4E0063F886 /* LaunchScreen.xib */,
@@ -234,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8268C3C1BF9698000BA11EC /* LSPageScrollView.m in Sources */,
 				0A808EED1BCB4E4E0063F886 /* ViewController.m in Sources */,
 				0A808EEA1BCB4E4E0063F886 /* AppDelegate.m in Sources */,
 				0A808F151BCBB5F90063F886 /* GuideCollection.m in Sources */,
